@@ -1,3 +1,53 @@
 h1{
-    color: red;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align:center;
+    color: black;
+    right: 50%;
+    bottom: 50%;
+    padding: 50px;
 }
+.start{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+    color: brown;
+    right: 50%;
+    bottom: 50%;
+    padding: 50px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+    color: brown;
+    right: 50%;
+    bottom: 50%;
+    padding: 50px;
+}
+
+
+
+.dad2{
+    display: none;
+}
+
+
+.dad3{
+    display: none;
+}
+
+
+.mom1{
+    display: none;
+}
+
+
+.mom2{
+    display: none;
+}
+
+
