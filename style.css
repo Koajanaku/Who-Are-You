@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Irish+Grover&family=Winky+Rough:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Englebert&family=Irish+Grover&family=Winky+Rough:wght@600&display=swap');
+body{
+    background-color: ;
+}
 h1{
     display: flex;
     flex-wrap: nowrap;
@@ -7,6 +12,11 @@ h1{
     right: 50%;
     bottom: 50%;
     padding: 50px;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
 }
 .start{
     display: flex;
@@ -19,17 +29,42 @@ h1{
     padding: 50px;
 }
 .block{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
     text-align:center;
     color: brown;
     right: 50%;
     bottom: 50%;
-    padding: 50px;
+    
 }
+button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 46%;
+    bottom: 60%;
+    text-align: center;
+    font-size: 75px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    
+    
+}
+input{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
 
-
+    
+}
 
 .dad2{
     display: none;
