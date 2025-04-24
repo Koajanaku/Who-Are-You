@@ -77,5 +77,14 @@ input{
 }
 
 .dad2{
-    size: 1000px;
+    width: 500px;
+}
+.dad1{
+    width:500px;
+}
+.mom1{
+    width:500px;
+}
+.mom2{
+    width:500px;
 }
