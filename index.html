@@ -6,26 +6,35 @@
     <title>Who Are You</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
+
 <h1>Who Are You</h1>
 
 
 <body>
     
-    <script src="script.js"></script>
-</body>
-<img class="dad2" src="dad.jpg">
-<img class="dad3" src="Dad Pic.jpg">
-<img class="mom1" src="mam.jpg">
-<img class="mom2" src="mom pic.jpg">
+ <div class="answers">
+<img class="dad2" style="display: none; " src="dad.jpg">
+<img class="dad1" style="display: none; " src="Dad Pic.jpg">
+<img class="mom1" style="display: none; " src="mam.jpg">
+<img class="mom2" style="display: none; " src="mom pic.jpg">
+ </div>
 <div class = start>
-<img class="dadstart" src="dad pic.PNG">
-<img class="momstart" src="mom picture.jpg">
+<img class="dadstart" style="display: block; " src="dad pic.PNG">
+<img class="momstart" style="display: block; "src="mom picture.jpg">
 </div>
 <div class = block>
-<h1>Are you more Like your mom or your dad</h1>
-<input class="questionOne" placeholder="I'm more like my ?">
+<h1>Do you like your mom or dad more?</h1>
+<input class="questionOne" placeholder="mom/dad">
 <h1>Do you fight with your mom or dad more?</h1>
-<input class="questionTwo" placeholder="I fight with my ?">
+<input class="questionTwo" placeholder="mom/dad">
 </div>
+
+<h1 class = "momword" style = display:none> You Are More Like Your Mom</h1>
+<h1 class = "dadword" style = display:none> You Are More Like Your Dad</h1>
+
+<br>
 <button>Click</button>
+
+<script src="script.js"></script>
+</body>
 </html>
